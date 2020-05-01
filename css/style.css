@@ -1,0 +1,64 @@
+main{
+  cursor: crosshair;
+}
+
+p{
+  font-family: counterpart;
+  float: left;
+font-size: 5em;
+line-height: 1.25em;
+text-align: justify!important;
+letter-spacing: .1em;
+}
+
+.hover-effect-1:hover{
+  text-transform: lowercase;
+
+}
+.hover-effect-1{
+    text-transform: uppercase;
+    transition: 1s ease;
+}
+
+.hover-effect-2:hover{
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+.hover-effect-2{
+    text-transform: lowercase;
+    transition: 1s ease;
+}
+
+nav h1{
+  font-family: counterpart;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  transition: 1s;
+  font-size: .75em;
+
+}
+
+.navbar-toggler{
+  border: none !important;
+  outline: none !important;
+}
+
+.navbar-nav{
+  background-color: white !important;
+}
+
+.navbar{
+  background-color: white !important;
+}
+
+
+@media (min-width: 567px){
+  p{
+    font-family: counterpart;
+    float: left;
+  font-size: 7em;
+  line-height: 1.25em;
+  text-align: justify!important;
+  letter-spacing: .1em;
+  }
+}
