@@ -1,7 +1,14 @@
-main{
-  cursor: crosshair;
+html {
+  scroll-behavior: smooth;
+    cursor: crosshair;
 }
 
+main{
+
+}
+#active{
+  color: black;
+}
 p{
   font-family: counterpart;
   float: left;
@@ -11,14 +18,23 @@ text-align: justify!important;
 letter-spacing: .1em;
 }
 
-.hover-effect-1:hover{
-  text-transform: lowercase;
+.pangram{
+font-size: 1.75em;
+text-transform: uppercase;
+margin-top: 2em;
+text-align: left!important;
+transition: all 1s ease;
+}
 
+.pangram span{
+transition: all 1s ease;
 }
-.hover-effect-1{
-    text-transform: uppercase;
-    transition: 1s ease;
+
+.pangram span:hover{
+  text-transform: lowercase;
+  transition: 1s ease;
 }
+
 
 .hover-effect-2:hover{
   text-transform: uppercase;
@@ -29,13 +45,22 @@ letter-spacing: .1em;
     transition: 1s ease;
 }
 
-nav h1{
+h1{
   font-family: counterpart;
   text-transform: uppercase;
   letter-spacing: .15em;
   transition: 1s;
-  font-size: .75em;
+  font-size: 1.5em;
 
+}
+
+h2{
+  font-family: counterpart;
+  letter-spacing: .1em;
+}
+
+h3{
+  font-family: counterpart;
 }
 
 .navbar-toggler{
@@ -49,6 +74,40 @@ nav h1{
 
 .navbar{
   background-color: white !important;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+
+.nav-list{
+  list-style: none;
+}
+
+.nav-list a{
+  color: grey;
+}
+
+.nav-list a:hover{
+  color: black;
+}
+.nav-list li{
+  font-family: counterpart;
+  color: grey;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  font-size: 1em;
+  text-align: left;
+  padding-left: 0!important;
+  margin-left: 0!important;
+
+}
+
+#triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid red;
 }
 
 
@@ -56,9 +115,65 @@ nav h1{
   p{
     font-family: counterpart;
     float: left;
-  font-size: 7em;
+  font-size: 6.5em;
   line-height: 1.25em;
   text-align: justify!important;
   letter-spacing: .1em;
   }
+}
+
+@media (min-width: 992px){
+  .nav-link{
+    font-family: counterpart;
+    color: grey;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-size: 1em;
+    text-align: center;
+  }
+  main{
+    height: 30em;
+    overflow: hidden;
+  }
+  .navbar-nav{
+    width: 50% !important;
+    float: right !important;
+  }
+
+  .navbar-nav{
+    float: right;
+  }
+  .nav-list li{
+    float: left;
+    width: 33%;
+list-style-type: none!important;
+text-align: center;
+
+  }
+
+  .nav-list a{
+    color: grey;
+    transition: all 1s ease;
+    font-family: counterpart;
+    letter-spacing: .15em;
+    text-decoration: none;
+  }
+
+  .nav-list a:hover{
+    color: black;
+
+  }
+
+  .navigation-custom-2{
+    list-style-type: none!important;
+  }
+}
+
+@media (min-width: 1200px){
+  main{
+    height: 25em;
+    overflow: hidden;
+  }
+
+
 }
