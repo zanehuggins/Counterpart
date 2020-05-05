@@ -18,10 +18,16 @@ text-align: justify!important;
 letter-spacing: .1em;
 }
 
+.pangram-container{
+  background-color: #f1f1f1;
+  margin-top: 3em;
+}
+
 .pangram{
 font-size: 2em;
 text-transform: uppercase;
 margin-top: 2em;
+margin-bottom: 2em;
 text-align: left!important;
 transition: all 1s ease;
 }
@@ -122,6 +128,85 @@ h3{
   min-height: 100vh;
 }
 
+#test-drive{
+min-height: 100vh;
+border-top: 1em solid #f1f1f1;
+}
+
+#test-drive textarea{
+  font-family: counterpart;
+  font-size: 4em;
+  outline: none;
+  border: none;
+  letter-spacing: .15em;
+}
+
+#test-drive textarea:hover{
+  text-transform: uppercase;
+}
+
+#test-drive h2{
+  margin-top: 1em;
+  margin-bottom: 1em;
+
+}
+
+#about{
+border-top: 1em solid #f1f1f1;
+}
+
+#about h2{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#about p{
+  font-size: 1.2em;
+  text-align: left!important;
+  margin-bottom: 2.5em;
+}
+
+.arrow{
+  width: auto;
+  height: 4em;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+}
+
+.arrow-2{
+  width: auto;
+  height: 4em;
+  position: absolute;
+  top: 0;
+  bottom: 7em;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+}
+
+video{
+  margin-bottom: 2em;
+}
+
+.arrow-up{
+  width: auto;
+  height: 4em;
+  position: absolute;
+  top: 2em;
+
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-bottom: 2em;
+
+}
+
 
 @media (min-width: 567px){
   p{
@@ -144,7 +229,7 @@ h3{
     text-align: center;
   }
   main{
-    height: 31em;
+    height: 32.5em;
     overflow: hidden;
   }
   .navbar-nav{

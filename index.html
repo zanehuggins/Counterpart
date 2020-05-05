@@ -21,7 +21,7 @@
 </nav>
 -->
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light col-12 float-left">
+<nav class="navbar navbar-expand-lg navbar-light bg-light col-12 float-left" id="home">
   <a class="navbar-brand offset-1" href="index.html"><h1>
 COUNTERPART
   </h1></a>
@@ -35,15 +35,15 @@ COUNTERPART
         <a href="index.html" id="active">HOME</a>
       </li>
       <li>
-        <a href="about.html">TEST DRIVE</a>
+        <a href="index.html#test-drive">TEST DRIVE</a>
       </li>
       <li>
-        <a href="about.html">ABOUT</a>
+        <a href="index.html#about">ABOUT</a>
       </li>
     </ul>
   </div>
 </nav>
-<div class="view-height-full col-12 float-left">
+<div class="view-height-full col-12 float-left p-0">
 <main class="col-12 p-0 float-left">
 
   <p class="col-10 offset-1 float-left">
@@ -77,14 +77,48 @@ COUNTERPART
 
 </main>
 
-<div class="col-12 float-left">
-  <p class="col-8 offset-1 pangram p-0"><span class="hover-effect-1">How</span> <span class="hover-effect-1">vexingly</span> <span class="hover-effect-1">quick</span> <span class="hover-effect-1">daft</span> <span class="hover-effect-1">zebras</span> <span class="hover-effect-1">jump.</span></p>
 <p class="version col-10 col-xl-2 offset-1 p-0 float-left">V twenty.one</p>
+
+<div class="col-12 p-0 float-left">
+  <a href="index.html#test-drive" class="d-none d-lg-block">
+  <img src="images/arrow.svg" alt="arrow to continue" class="arrow">
+</a>
 </div>
+
 </div>
-<div class="col-12 float-left">
+<div class="col-12 float-left" id="test-drive">
   <h2 class="col-10 offset-1 p-0">TEST DRIVE</h2>
+  <textarea class="col-10 offset-1 float-left" placeholder="type something here" rows="5"></textarea>
 </div>
+
+<div class="about-link col-12 float-left p-0">
+  <a href="index.html#about" class="d-none d-lg-block">
+  <img src="images/arrow.svg" alt="arrow to continue" class="arrow-2">
+
+</a>
+</div>
+
+<div class="col-12 float-left" id="about">
+  <div class="col-10 col-lg-5 offset-1 float-left">
+  <h2 class="col-12 p-0">ABOUT</h2>
+  <p class="col-12 float-left p-0">
+    COUNTERPART IS AN EXPERIMENTAL MONOSPACE TYPEFACE THAT EXPLORES THE COUNTERFORMS OF THE ALPHABET. WITH NO INHERENT TRACKING OR KERNING, THIS FONT IS DESIGNED TO ENCOURAGE USERS TO EXPLORE, EXPERIMENT, AND MAKE IT THEIR OWN.
+  </p>
+</div>
+  <video class="col-12 col-lg-5 float-left p-0" playsinline autoplay muted loop>
+        <source src="images/video.mp4" type="video/mp4" class="col-12 float-left">
+        <source src="movie.ogg" type="video/ogg" class="col-12 float-left">
+        Your browser does not support the video tag.
+      </video>
+</div>
+      <div class="up-button col-12 float-left">
+        <a href="index.html#home" class="d-none d-lg-block">
+        <img src="images/arrow-up.svg" alt="arrow to top" class="arrow-up">
+
+      </a>
+      </div>
+
+
 
 
 <footer>
